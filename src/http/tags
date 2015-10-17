@@ -1,0 +1,41 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CONNECT	aosen_http.h	12;"	d
+DEFAULT_HTTPS_PORT	aosen_http.h	19;"	d
+DEFAULT_HTTP_PORT	aosen_http.h	18;"	d
+FILELEN	aosen_http.h	10;"	d
+GET	aosen_http.h	13;"	d
+HEAD	aosen_http.h	15;"	d
+HOSTLEN	aosen_http.h	9;"	d
+KEEP_ALIVE	aosen_http.h	21;"	d
+NOHTTP	aosen_http.h	16;"	d
+POST	aosen_http.h	14;"	d
+__AOSEN_HTTP_H__	aosen_http.h	2;"	d
+_request_header_	aosen_http.h	/^typedef struct _request_header_{$/;"	s
+_request_header_::host	aosen_http.h	/^    char host[HOSTLEN];$/;"	m	struct:_request_header_	access:public
+_request_header_::method	aosen_http.h	/^    int method;$/;"	m	struct:_request_header_	access:public
+_request_header_::port	aosen_http.h	/^    int port;$/;"	m	struct:_request_header_	access:public
+aosen_do_with_connect	aosen_http.c	/^int aosen_do_with_connect(aosen_worker_node *worker_node)$/;"	f	signature:(aosen_worker_node *worker_node)
+aosen_do_with_connect	aosen_http.h	/^int aosen_do_with_connect(aosen_worker_node* worker_node);$/;"	p	signature:(aosen_worker_node* worker_node)
+aosen_get_request_header	aosen_http.c	/^int aosen_get_request_header(const char *read_buf, request_header *rh)$/;"	f	signature:(const char *read_buf, request_header *rh)
+aosen_get_request_header	aosen_http.h	/^int aosen_get_request_header(const char* read_buf, request_header* rh);$/;"	p	signature:(const char* read_buf, request_header* rh)
+aosen_get_request_method	aosen_http.c	/^int aosen_get_request_method(const char *read_buf)$/;"	f	signature:(const char *read_buf)
+aosen_get_request_method	aosen_http.h	/^int aosen_get_request_method(const char *read_buf);$/;"	p	signature:(const char *read_buf)
+get_host	aosen_http.c	/^static int get_host(const char *read_buf, char *host)$/;"	f	file:	signature:(const char *read_buf, char *host)
+get_host	aosen_http.c	/^static int get_host(const char *read_buf, char *host);$/;"	p	file:	signature:(const char *read_buf, char *host)
+get_host_from_url	aosen_http.c	/^static int get_host_from_url(const char *read_buf, char *host)$/;"	f	file:	signature:(const char *read_buf, char *host)
+get_host_from_url	aosen_http.c	/^static int get_host_from_url(const char *read_buf, char *host);$/;"	p	file:	signature:(const char *read_buf, char *host)
+get_port	aosen_http.c	/^static int get_port(const char *read_buf)$/;"	f	file:	signature:(const char *read_buf)
+get_port	aosen_http.c	/^static int get_port(const char *read_buf);$/;"	p	file:	signature:(const char *read_buf)
+get_port_from_url	aosen_http.c	/^static int get_port_from_url(const char *read_buf)$/;"	f	file:	signature:(const char *read_buf)
+get_port_from_url	aosen_http.c	/^static int get_port_from_url(const char *read_buf);$/;"	p	file:	signature:(const char *read_buf)
+host	aosen_http.h	/^    char host[HOSTLEN];$/;"	m	struct:_request_header_	access:public
+is_http_msg	aosen_http.c	/^int is_http_msg(const char* read_buf)$/;"	f	signature:(const char* read_buf)
+is_http_msg	aosen_http.h	/^int is_http_msg(const char* read_buf);$/;"	p	signature:(const char* read_buf)
+method	aosen_http.h	/^    int method;$/;"	m	struct:_request_header_	access:public
+port	aosen_http.h	/^    int port;$/;"	m	struct:_request_header_	access:public
+request_header	aosen_http.h	/^}request_header;$/;"	t	typeref:struct:_request_header_

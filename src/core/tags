@@ -1,0 +1,290 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Accept	aosen_core.h	/^    char *Accept;$/;"	m	struct:_request_header_	access:public
+Accept_Charset	aosen_core.h	/^    char *Accept_Charset;$/;"	m	struct:_request_header_	access:public
+Accept_Encoding	aosen_core.h	/^    char *Accept_Encoding;$/;"	m	struct:_request_header_	access:public
+Accept_Language	aosen_core.h	/^    char *Accept_Language;$/;"	m	struct:_request_header_	access:public
+Authorization	aosen_core.h	/^    char *Authorization;$/;"	m	struct:_request_header_	access:public
+BUFFSIZE	aosen_core.h	27;"	d
+CAN_CONNECT_SERVER	aosen_core.h	78;"	d
+CAN_READ_FROM_SERVER	aosen_core.h	80;"	d
+CAN_READ_FROM_USER	aosen_core.h	77;"	d
+CAN_WRITE_TO_SERVER	aosen_core.h	79;"	d
+CAN_WRITE_TO_USER	aosen_core.h	81;"	d
+CPU	aosen_core.h	45;"	d
+Cache_Control	aosen_core.h	/^    char *Cache_Control;$/;"	m	struct:_request_header_	access:public
+Content_Length	aosen_core.h	/^    int Content_Length;$/;"	m	struct:_request_header_	access:public
+Cookie	aosen_core.h	/^    char *Cookie;$/;"	m	struct:_request_header_	access:public
+DEBUG	aosen_core.h	4;"	d
+DEFAULT_MEM_SIZE	aosen_core.h	37;"	d
+EPOLLEVENTS	aosen_core.h	24;"	d
+EVENT_SERVER	aosen_core.h	84;"	d
+EVENT_USER	aosen_core.h	83;"	d
+FDSIZE	aosen_core.h	23;"	d
+Filepath	aosen_core.h	/^    char *Filepath;$/;"	m	struct:_request_header_	access:public
+Host	aosen_core.h	/^    char *Host;$/;"	m	struct:_request_header_	access:public
+Http_Type	aosen_core.h	/^    char *Http_Type;$/;"	m	struct:_request_header_	access:public
+MAX_ACCEPT	aosen_core.h	40;"	d
+MAX_HOST_LEN	aosen_core.h	43;"	d
+Method	aosen_core.h	/^    int Method;$/;"	m	struct:_request_header_	access:public
+PRINTF	aosen_core.h	6;"	d
+PRINTF	aosen_core.h	8;"	d
+PROXYSERVER	aosen_core.h	49;"	d
+Port	aosen_core.h	/^    int Port;$/;"	m	struct:_request_header_	access:public
+Proxy_Connection	aosen_core.h	/^    char *Proxy_Connection;$/;"	m	struct:_request_header_	access:public
+READ_FROM_LOCAL_SERVER_SIZE_1	aosen_core.h	31;"	d
+READ_FROM_LOCAL_SERVER_SIZE_2	aosen_core.h	33;"	d
+READ_FROM_SERVER_SIZE	aosen_core.h	32;"	d
+READ_FROM_USER_SIZE	aosen_core.h	29;"	d
+TEST1	aosen_core.h	11;"	d
+TEST2	aosen_core.h	12;"	d
+TEST3	aosen_core.h	13;"	d
+User_Agent	aosen_core.h	/^    char *User_Agent;$/;"	m	struct:_request_header_	access:public
+WEBSERVER	aosen_core.h	48;"	d
+__AOSEN_CORE__	aosen_core.h	2;"	d
+__AOSEN_STRING__	aosen_string.h	2;"	d
+__USE_GNU	aosen_init.c	8;"	d	file:
+__USE_GNU	aosen_worker.c	8;"	d	file:
+_aosen_core_date_	aosen_core.h	/^typedef struct _aosen_core_date_$/;"	s
+_aosen_core_date_::cpu_core_id	aosen_core.h	/^	int cpu_core_id;$/;"	m	struct:_aosen_core_date_	access:public
+_aosen_core_date_::cpu_core_num	aosen_core.h	/^	int cpu_core_num;$/;"	m	struct:_aosen_core_date_	access:public
+_aosen_core_date_::fd_c	aosen_core.h	/^	int fd_c;$/;"	m	struct:_aosen_core_date_	access:public
+_aosen_core_date_::fd_s	aosen_core.h	/^    int fd_s;$/;"	m	struct:_aosen_core_date_	access:public
+_aosen_core_date_::local_method	aosen_core.h	/^    char* local_method;$/;"	m	struct:_aosen_core_date_	access:public
+_aosen_core_date_::local_path	aosen_core.h	/^    char* local_path;$/;"	m	struct:_aosen_core_date_	access:public
+_aosen_core_date_::local_port	aosen_core.h	/^    int local_port;$/;"	m	struct:_aosen_core_date_	access:public
+_aosen_core_date_::local_server	aosen_core.h	/^    char *local_server;$/;"	m	struct:_aosen_core_date_	access:public
+_aosen_core_date_::master_head	aosen_core.h	/^	aosen_master_head *master_head;$/;"	m	struct:_aosen_core_date_	access:public
+_aosen_core_date_::master_pid	aosen_core.h	/^    pid_t master_pid;$/;"	m	struct:_aosen_core_date_	access:public
+_aosen_core_date_::max_listen	aosen_core.h	/^    int max_listen;$/;"	m	struct:_aosen_core_date_	access:public
+_aosen_core_date_::pid	aosen_core.h	/^    pid_t pid;$/;"	m	struct:_aosen_core_date_	access:public
+_aosen_core_date_::port	aosen_core.h	/^    int port;$/;"	m	struct:_aosen_core_date_	access:public
+_aosen_core_date_::server	aosen_core.h	/^    int server;$/;"	m	struct:_aosen_core_date_	access:public
+_aosen_core_date_::server_time_out	aosen_core.h	/^    int server_time_out;$/;"	m	struct:_aosen_core_date_	access:public
+_aosen_core_date_::share_mem_key	aosen_core.h	/^	key_t share_mem_key;$/;"	m	struct:_aosen_core_date_	access:public
+_aosen_core_date_::share_mem_size	aosen_core.h	/^	size_t share_mem_size;$/;"	m	struct:_aosen_core_date_	access:public
+_aosen_core_date_::shmid	aosen_core.h	/^	int shmid;$/;"	m	struct:_aosen_core_date_	access:public
+_aosen_core_date_::user_time_out	aosen_core.h	/^    int user_time_out;$/;"	m	struct:_aosen_core_date_	access:public
+_aosen_core_date_::worker_head	aosen_core.h	/^	aosen_worker_head *worker_head;$/;"	m	struct:_aosen_core_date_	access:public
+_aosen_master_head_	aosen_core.h	/^typedef struct _aosen_master_head_$/;"	s
+_aosen_master_head_::accept_cpu_core_id	aosen_core.h	/^    int accept_cpu_core_id;$/;"	m	struct:_aosen_master_head_	access:public
+_aosen_master_head_::cpu_core_num	aosen_core.h	/^	int cpu_core_num;$/;"	m	struct:_aosen_master_head_	access:public
+_aosen_master_head_::fd_s	aosen_core.h	/^    int fd_s;$/;"	m	struct:_aosen_master_head_	access:public
+_aosen_master_head_::len	aosen_core.h	/^	int len;$/;"	m	struct:_aosen_master_head_	access:public
+_aosen_master_head_::master_pid	aosen_core.h	/^	pid_t master_pid;$/;"	m	struct:_aosen_master_head_	access:public
+_aosen_master_head_::next_master_node	aosen_core.h	/^	struct _aosen_master_node_* next_master_node;$/;"	m	struct:_aosen_master_head_	typeref:struct:_aosen_master_head_::_aosen_master_node_	access:public
+_aosen_master_node_	aosen_core.h	/^typedef struct _aosen_master_node_$/;"	s
+_aosen_master_node_::next_master_node	aosen_core.h	/^	struct _aosen_master_node *next_master_node;$/;"	m	struct:_aosen_master_node_	typeref:struct:_aosen_master_node_::_aosen_master_node	access:public
+_aosen_server_	aosen_core.h	/^typedef struct _aosen_server_$/;"	s
+_aosen_server_::handle_data_from_local_server_1	aosen_core.h	/^    char* (*handle_data_from_local_server_1)(struct _aosen_server_ *aosen , const aosen_worker_node *worker_node, int *state);$/;"	m	struct:_aosen_server_	access:public
+_aosen_server_::handle_data_from_local_server_2	aosen_core.h	/^    char* (*handle_data_from_local_server_2)(struct _aosen_server_ *aosen , const aosen_worker_node *worker_node, int *state);$/;"	m	struct:_aosen_server_	access:public
+_aosen_server_::handle_data_from_server	aosen_core.h	/^	char* (*handle_data_from_server)(struct _aosen_server_ *aosen, const aosen_worker_node *worker_node, int *state);$/;"	m	struct:_aosen_server_	access:public
+_aosen_server_::handle_data_from_user	aosen_core.h	/^	char* (*handle_data_from_user)(struct _aosen_server_ *aosen, const aosen_worker_node *worker_node, int *state);$/;"	m	struct:_aosen_server_	access:public
+_aosen_server_::local_method	aosen_core.h	/^    char* local_method;$/;"	m	struct:_aosen_server_	access:public
+_aosen_server_::local_path	aosen_core.h	/^    char* local_path;$/;"	m	struct:_aosen_server_	access:public
+_aosen_server_::local_port	aosen_core.h	/^    int local_port;$/;"	m	struct:_aosen_server_	access:public
+_aosen_server_::local_server	aosen_core.h	/^    char* local_server;$/;"	m	struct:_aosen_server_	access:public
+_aosen_worker_head_	aosen_core.h	/^typedef struct _aosen_worker_head_$/;"	s
+_aosen_worker_head_::accept_num	aosen_core.h	/^	int accept_num;$/;"	m	struct:_aosen_worker_head_	access:public
+_aosen_worker_head_::cpu_core_id	aosen_core.h	/^	int cpu_core_id;$/;"	m	struct:_aosen_worker_head_	access:public
+_aosen_worker_head_::next_worker_node	aosen_core.h	/^	struct _aosen_worker_node_ *next_worker_node;$/;"	m	struct:_aosen_worker_head_	typeref:struct:_aosen_worker_head_::_aosen_worker_node_	access:public
+_aosen_worker_head_::pid	aosen_core.h	/^	pid_t pid;$/;"	m	struct:_aosen_worker_head_	access:public
+_aosen_worker_node_	aosen_core.h	/^typedef struct _aosen_worker_node_$/;"	s
+_aosen_worker_node_::accept_time	aosen_core.h	/^    int accept_time;$/;"	m	struct:_aosen_worker_node_	access:public
+_aosen_worker_node_::connect_time	aosen_core.h	/^    int connect_time;$/;"	m	struct:_aosen_worker_node_	access:public
+_aosen_worker_node_::event_local_server_fd_1	aosen_core.h	/^    int event_local_server_fd_1;$/;"	m	struct:_aosen_worker_node_	access:public
+_aosen_worker_node_::event_local_server_fd_2	aosen_core.h	/^    int event_local_server_fd_2;$/;"	m	struct:_aosen_worker_node_	access:public
+_aosen_worker_node_::event_server_fd	aosen_core.h	/^    int event_server_fd;$/;"	m	struct:_aosen_worker_node_	access:public
+_aosen_worker_node_::event_user_fd	aosen_core.h	/^    int event_user_fd;$/;"	m	struct:_aosen_worker_node_	access:public
+_aosen_worker_node_::next_worker_node	aosen_core.h	/^	struct _aosen_worker_node_ *next_worker_node;$/;"	m	struct:_aosen_worker_node_	typeref:struct:_aosen_worker_node_::_aosen_worker_node_	access:public
+_aosen_worker_node_::prev_worker_node	aosen_core.h	/^    struct _aosen_worker_node_ *prev_worker_node;$/;"	m	struct:_aosen_worker_node_	typeref:struct:_aosen_worker_node_::_aosen_worker_node_	access:public
+_aosen_worker_node_::read_from_local_server_buf_1	aosen_core.h	/^    char *read_from_local_server_buf_1;$/;"	m	struct:_aosen_worker_node_	access:public
+_aosen_worker_node_::read_from_local_server_buf_2	aosen_core.h	/^    char *read_from_local_server_buf_2;$/;"	m	struct:_aosen_worker_node_	access:public
+_aosen_worker_node_::read_from_local_server_time_1	aosen_core.h	/^    int read_from_local_server_time_1;$/;"	m	struct:_aosen_worker_node_	access:public
+_aosen_worker_node_::read_from_local_time_2	aosen_core.h	/^    int read_from_local_time_2;$/;"	m	struct:_aosen_worker_node_	access:public
+_aosen_worker_node_::read_from_server_buf	aosen_core.h	/^    char *read_from_server_buf;$/;"	m	struct:_aosen_worker_node_	access:public
+_aosen_worker_node_::read_from_server_time	aosen_core.h	/^    int read_from_server_time;$/;"	m	struct:_aosen_worker_node_	access:public
+_aosen_worker_node_::read_from_user_buf	aosen_core.h	/^	char *read_from_user_buf;$/;"	m	struct:_aosen_worker_node_	access:public
+_aosen_worker_node_::read_from_user_time	aosen_core.h	/^    int read_from_user_time;$/;"	m	struct:_aosen_worker_node_	access:public
+_aosen_worker_node_::request_header_from_user	aosen_core.h	/^	request_header *request_header_from_user;$/;"	m	struct:_aosen_worker_node_	access:public
+_aosen_worker_node_::state	aosen_core.h	/^    int state;$/;"	m	struct:_aosen_worker_node_	access:public
+_aosen_worker_node_::write_to_local_server_buf_1	aosen_core.h	/^    char *write_to_local_server_buf_1;$/;"	m	struct:_aosen_worker_node_	access:public
+_aosen_worker_node_::write_to_local_server_buf_2	aosen_core.h	/^    char *write_to_local_server_buf_2;$/;"	m	struct:_aosen_worker_node_	access:public
+_aosen_worker_node_::write_to_local_server_time_1	aosen_core.h	/^    int write_to_local_server_time_1;$/;"	m	struct:_aosen_worker_node_	access:public
+_aosen_worker_node_::write_to_local_time_2	aosen_core.h	/^    int write_to_local_time_2;$/;"	m	struct:_aosen_worker_node_	access:public
+_aosen_worker_node_::write_to_server_buf	aosen_core.h	/^    char *write_to_server_buf;$/;"	m	struct:_aosen_worker_node_	access:public
+_aosen_worker_node_::write_to_server_time	aosen_core.h	/^    int write_to_server_time;$/;"	m	struct:_aosen_worker_node_	access:public
+_aosen_worker_node_::write_to_user_buf	aosen_core.h	/^	char *write_to_user_buf;$/;"	m	struct:_aosen_worker_node_	access:public
+_aosen_worker_node_::write_to_user_time	aosen_core.h	/^    int write_to_user_time;$/;"	m	struct:_aosen_worker_node_	access:public
+_request_header_	aosen_core.h	/^typedef struct _request_header_{$/;"	s
+_request_header_::Accept	aosen_core.h	/^    char *Accept;$/;"	m	struct:_request_header_	access:public
+_request_header_::Accept_Charset	aosen_core.h	/^    char *Accept_Charset;$/;"	m	struct:_request_header_	access:public
+_request_header_::Accept_Encoding	aosen_core.h	/^    char *Accept_Encoding;$/;"	m	struct:_request_header_	access:public
+_request_header_::Accept_Language	aosen_core.h	/^    char *Accept_Language;$/;"	m	struct:_request_header_	access:public
+_request_header_::Authorization	aosen_core.h	/^    char *Authorization;$/;"	m	struct:_request_header_	access:public
+_request_header_::Cache_Control	aosen_core.h	/^    char *Cache_Control;$/;"	m	struct:_request_header_	access:public
+_request_header_::Content_Length	aosen_core.h	/^    int Content_Length;$/;"	m	struct:_request_header_	access:public
+_request_header_::Cookie	aosen_core.h	/^    char *Cookie;$/;"	m	struct:_request_header_	access:public
+_request_header_::Filepath	aosen_core.h	/^    char *Filepath;$/;"	m	struct:_request_header_	access:public
+_request_header_::Host	aosen_core.h	/^    char *Host;$/;"	m	struct:_request_header_	access:public
+_request_header_::Http_Type	aosen_core.h	/^    char *Http_Type;$/;"	m	struct:_request_header_	access:public
+_request_header_::Method	aosen_core.h	/^    int Method;$/;"	m	struct:_request_header_	access:public
+_request_header_::Port	aosen_core.h	/^    int Port;$/;"	m	struct:_request_header_	access:public
+_request_header_::Proxy_Connection	aosen_core.h	/^    char *Proxy_Connection;$/;"	m	struct:_request_header_	access:public
+_request_header_::User_Agent	aosen_core.h	/^    char *User_Agent;$/;"	m	struct:_request_header_	access:public
+accept_cpu_core_id	aosen_core.h	/^    int accept_cpu_core_id;$/;"	m	struct:_aosen_master_head_	access:public
+accept_num	aosen_core.h	/^	int accept_num;$/;"	m	struct:_aosen_worker_head_	access:public
+accept_time	aosen_core.h	/^    int accept_time;$/;"	m	struct:_aosen_worker_node_	access:public
+aosen_add_buf	aosen_worker.c	/^static char *aosen_add_buf(char *old_buf, int iter, size_t size)$/;"	f	file:	signature:(char *old_buf, int iter, size_t size)
+aosen_add_buf	aosen_worker.c	/^static char *aosen_add_buf(char *old_buf, int iter, size_t size);$/;"	p	file:	signature:(char *old_buf, int iter, size_t size)
+aosen_add_event	aosen_worker.c	/^static void aosen_add_event(int epollfd,int fd,int state)$/;"	f	file:	signature:(int epollfd,int fd,int state)
+aosen_add_event	aosen_worker.c	/^static void aosen_add_event(int epollfd,int fd,int state);$/;"	p	file:	signature:(int epollfd,int fd,int state)
+aosen_add_worker_node	aosen_worker.c	/^static aosen_worker_node* aosen_add_worker_node(int event_user_fd, aosen_core_data *core_data, aosen_server *aosen);$/;"	p	file:	signature:(int event_user_fd, aosen_core_data *core_data, aosen_server *aosen)
+aosen_add_worker_node	aosen_worker.c	/^static aosen_worker_node* aosen_add_worker_node(int event_user_fd, aosen_core_data *core_data, aosen_server* aosen)$/;"	f	file:	signature:(int event_user_fd, aosen_core_data *core_data, aosen_server* aosen)
+aosen_check_accept	aosen_worker.c	/^static int aosen_check_accept(int epollfd, aosen_server *aosen, aosen_core_data *core_data);$/;"	p	file:	signature:(int epollfd, aosen_server *aosen, aosen_core_data *core_data)
+aosen_check_accept	aosen_worker.c	/^static int aosen_check_accept(int epollfd, aosen_server* aosen, aosen_core_data *core_data)$/;"	f	file:	signature:(int epollfd, aosen_server* aosen, aosen_core_data *core_data)
+aosen_connect	aosen_worker.c	/^static int aosen_connect(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server* aosen, aosen_core_data *core_data);$/;"	p	file:	signature:(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server* aosen, aosen_core_data *core_data)
+aosen_core_data	aosen_core.h	/^}aosen_core_data;$/;"	t	typeref:struct:_aosen_core_date_
+aosen_dec_accept	aosen_worker.c	/^static void aosen_dec_accept(aosen_core_data *core_data)$/;"	f	file:	signature:(aosen_core_data *core_data)
+aosen_dec_accept	aosen_worker.c	/^static void aosen_dec_accept(aosen_core_data *core_data);$/;"	p	file:	signature:(aosen_core_data *core_data)
+aosen_delete_event	aosen_worker.c	/^static void aosen_delete_event(int epollfd,int fd,int state)$/;"	f	file:	signature:(int epollfd,int fd,int state)
+aosen_delete_event	aosen_worker.c	/^static void aosen_delete_event(int epollfd,int fd,int state); $/;"	p	file:	signature:(int epollfd,int fd,int state)
+aosen_delete_worker_node	aosen_worker.c	/^static void aosen_delete_worker_node(aosen_core_data *core_data, aosen_worker_node *worker_node)$/;"	f	file:	signature:(aosen_core_data *core_data, aosen_worker_node *worker_node)
+aosen_delete_worker_node	aosen_worker.c	/^static void aosen_delete_worker_node(aosen_core_data *core_data, aosen_worker_node *worker_node);$/;"	p	file:	signature:(aosen_core_data *core_data, aosen_worker_node *worker_node)
+aosen_do_epoll	aosen_core.h	/^extern void aosen_do_epoll(aosen_server *aosen, aosen_core_data *core_data);$/;"	p	signature:(aosen_server *aosen, aosen_core_data *core_data)
+aosen_do_epoll	aosen_worker.c	/^void aosen_do_epoll(aosen_server *aosen, aosen_core_data *core_data)$/;"	f	signature:(aosen_server *aosen, aosen_core_data *core_data)
+aosen_free_share_mem	aosen_init.c	/^static int aosen_free_share_mem(aosen_server *aosen, aosen_core_data *core_data)$/;"	f	file:	signature:(aosen_server *aosen, aosen_core_data *core_data)
+aosen_free_share_mem	aosen_init.c	/^static int aosen_free_share_mem(aosen_server *aosen, aosen_core_data *core_data);$/;"	p	file:	signature:(aosen_server *aosen, aosen_core_data *core_data)
+aosen_handle_accept	aosen_worker.c	/^static int aosen_handle_accept(int epollfd,aosen_server *aosen, aosen_core_data *core_data)$/;"	f	file:	signature:(int epollfd,aosen_server *aosen, aosen_core_data *core_data)
+aosen_handle_accept	aosen_worker.c	/^static int aosen_handle_accept(int epollfd,aosen_server* aosen, aosen_core_data *core_data);$/;"	p	file:	signature:(int epollfd,aosen_server* aosen, aosen_core_data *core_data)
+aosen_handle_events	aosen_worker.c	/^static void aosen_handle_events(int epollfd,struct epoll_event *events,int num,aosen_server *aosen, aosen_core_data *core_data)$/;"	f	file:	signature:(int epollfd,struct epoll_event *events,int num,aosen_server *aosen, aosen_core_data *core_data)
+aosen_handle_events	aosen_worker.c	/^static void aosen_handle_events(int epollfd,struct epoll_event *events,int num,aosen_server *aosen, aosen_core_data *core_data);$/;"	p	file:	signature:(int epollfd,struct epoll_event *events,int num,aosen_server *aosen, aosen_core_data *core_data)
+aosen_inc_accept	aosen_worker.c	/^static void aosen_inc_accept(aosen_core_data *core_data)$/;"	f	file:	signature:(aosen_core_data *core_data)
+aosen_inc_accept	aosen_worker.c	/^static void aosen_inc_accept(aosen_core_data *core_data);$/;"	p	file:	signature:(aosen_core_data *core_data)
+aosen_init_share_mem	aosen_init.c	/^static int aosen_init_share_mem(aosen_server *aosen, aosen_core_data* core_data)$/;"	f	file:	signature:(aosen_server *aosen, aosen_core_data* core_data)
+aosen_init_share_mem	aosen_init.c	/^static int aosen_init_share_mem(aosen_server *aosen,aosen_core_data *core_data);$/;"	p	file:	signature:(aosen_server *aosen,aosen_core_data *core_data)
+aosen_master_head	aosen_core.h	/^}aosen_master_head;$/;"	t	typeref:struct:_aosen_master_head_
+aosen_master_node	aosen_core.h	/^}aosen_master_node;$/;"	t	typeref:struct:_aosen_master_node_
+aosen_master_run	aosen_core.h	/^extern void aosen_master_run(aosen_server* aosen, aosen_core_data *core_data);$/;"	p	signature:(aosen_server* aosen, aosen_core_data *core_data)
+aosen_master_run	aosen_master.c	/^void aosen_master_run(aosen_server *aosen, aosen_core_data *core_data)$/;"	f	signature:(aosen_server *aosen, aosen_core_data *core_data)
+aosen_modify_event	aosen_worker.c	/^static void aosen_modify_event(int epollfd,int fd,int state)$/;"	f	file:	signature:(int epollfd,int fd,int state)
+aosen_modify_event	aosen_worker.c	/^static void aosen_modify_event(int epollfd,int fd,int state);$/;"	p	file:	signature:(int epollfd,int fd,int state)
+aosen_read_from_local_server_1	aosen_worker.c	/^static int aosen_read_from_local_server_1(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data)$/;"	f	file:	signature:(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data)
+aosen_read_from_local_server_1	aosen_worker.c	/^static int aosen_read_from_local_server_1(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data);$/;"	p	file:	signature:(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data)
+aosen_read_from_local_server_2	aosen_worker.c	/^static int aosen_read_from_local_server_2(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data)$/;"	f	file:	signature:(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data)
+aosen_read_from_local_server_2	aosen_worker.c	/^static int aosen_read_from_local_server_2(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data);$/;"	p	file:	signature:(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data)
+aosen_read_from_server	aosen_worker.c	/^static int aosen_read_from_server(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data)$/;"	f	file:	signature:(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data)
+aosen_read_from_server	aosen_worker.c	/^static int aosen_read_from_server(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data);$/;"	p	file:	signature:(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data)
+aosen_read_from_user	aosen_worker.c	/^static int aosen_read_from_user(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data)$/;"	f	file:	signature:(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data)
+aosen_read_from_user	aosen_worker.c	/^static int aosen_read_from_user(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data);$/;"	p	file:	signature:(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data)
+aosen_run	aosen_core.h	/^extern void aosen_run(aosen_server*);$/;"	p	signature:(aosen_server*)
+aosen_run	aosen_init.c	/^void aosen_run(aosen_server *aosen)$/;"	f	signature:(aosen_server *aosen)
+aosen_search_event	aosen_worker.c	/^static aosen_worker_node* aosen_search_event(struct epoll_event *event, aosen_core_data *core_data, aosen_server *aosen)$/;"	f	file:	signature:(struct epoll_event *event, aosen_core_data *core_data, aosen_server *aosen)
+aosen_search_event	aosen_worker.c	/^static aosen_worker_node* aosen_search_event(struct epoll_event *event, aosen_core_data *core_data, aosen_server* aosen);$/;"	p	file:	signature:(struct epoll_event *event, aosen_core_data *core_data, aosen_server* aosen)
+aosen_server	aosen_core.h	/^}aosen_server;$/;"	t	typeref:struct:_aosen_server_
+aosen_stop	aosen_master.c	/^static void aosen_stop() $/;"	f	file:
+aosen_stop	aosen_master.c	/^static void aosen_stop();$/;"	p	file:
+aosen_string_search_char	aosen_string.c	/^char *aosen_string_search_char(const char *start, const char *end, char c)$/;"	f	signature:(const char *start, const char *end, char c)
+aosen_string_search_char	aosen_string.h	/^char *aosen_string_search_char(const char *start, const char *end, char c);$/;"	p	signature:(const char *start, const char *end, char c)
+aosen_worker_head	aosen_core.h	/^}aosen_worker_head;$/;"	t	typeref:struct:_aosen_worker_head_
+aosen_worker_node	aosen_core.h	/^}aosen_worker_node;$/;"	t	typeref:struct:_aosen_worker_node_
+aosen_write_to_local_server_1	aosen_worker.c	/^static int aosen_write_to_local_server_1(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data)$/;"	f	file:	signature:(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data)
+aosen_write_to_local_server_1	aosen_worker.c	/^static int aosen_write_to_local_server_1(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data);$/;"	p	file:	signature:(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data)
+aosen_write_to_local_server_2	aosen_worker.c	/^static int aosen_write_to_local_server_2(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data)$/;"	f	file:	signature:(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data)
+aosen_write_to_local_server_2	aosen_worker.c	/^static int aosen_write_to_local_server_2(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data);$/;"	p	file:	signature:(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data)
+aosen_write_to_server	aosen_worker.c	/^static int aosen_write_to_server(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data)$/;"	f	file:	signature:(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data)
+aosen_write_to_server	aosen_worker.c	/^static int aosen_write_to_server(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data);$/;"	p	file:	signature:(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data)
+aosen_write_to_user	aosen_worker.c	/^static int aosen_write_to_user(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data)$/;"	f	file:	signature:(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data)
+aosen_write_to_user	aosen_worker.c	/^static int aosen_write_to_user(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data);$/;"	p	file:	signature:(int epollfd, int fd, aosen_worker_node *worker_node, aosen_server *aosen, aosen_core_data *core_data)
+beautify_share_mem	aosen_init.c	/^static aosen_master_head *beautify_share_mem(aosen_core_data* core_data, aosen_master_head *master_head);$/;"	p	file:	signature:(aosen_core_data* core_data, aosen_master_head *master_head)
+beautify_share_mem	aosen_init.c	/^static aosen_master_head* beautify_share_mem(aosen_core_data* core_data, aosen_master_head *master_head)$/;"	f	file:	signature:(aosen_core_data* core_data, aosen_master_head *master_head)
+connect_time	aosen_core.h	/^    int connect_time;$/;"	m	struct:_aosen_worker_node_	access:public
+cpu_core_id	aosen_core.h	/^	int cpu_core_id;$/;"	m	struct:_aosen_core_date_	access:public
+cpu_core_id	aosen_core.h	/^	int cpu_core_id;$/;"	m	struct:_aosen_worker_head_	access:public
+cpu_core_num	aosen_core.h	/^	int cpu_core_num;$/;"	m	struct:_aosen_core_date_	access:public
+cpu_core_num	aosen_core.h	/^	int cpu_core_num;$/;"	m	struct:_aosen_master_head_	access:public
+create_master_head	aosen_init.c	/^static void create_master_head(aosen_master_head *master_head)$/;"	f	file:	signature:(aosen_master_head *master_head)
+create_master_head	aosen_init.c	/^static void create_master_head(struct _aosen_master_head_ *);$/;"	p	file:	signature:(struct _aosen_master_head_ *)
+create_worker_head	aosen_init.c	/^static void create_worker_head(aosen_worker_head *worker_head)$/;"	f	file:	signature:(aosen_worker_head *worker_head)
+create_worker_head	aosen_init.c	/^static void create_worker_head(aosen_worker_head *worker_head);$/;"	p	file:	signature:(aosen_worker_head *worker_head)
+event_local_server_fd_1	aosen_core.h	/^    int event_local_server_fd_1;$/;"	m	struct:_aosen_worker_node_	access:public
+event_local_server_fd_2	aosen_core.h	/^    int event_local_server_fd_2;$/;"	m	struct:_aosen_worker_node_	access:public
+event_server_fd	aosen_core.h	/^    int event_server_fd;$/;"	m	struct:_aosen_worker_node_	access:public
+event_user_fd	aosen_core.h	/^    int event_user_fd;$/;"	m	struct:_aosen_worker_node_	access:public
+fd_c	aosen_core.h	/^	int fd_c;$/;"	m	struct:_aosen_core_date_	access:public
+fd_s	aosen_core.h	/^    int fd_s;$/;"	m	struct:_aosen_core_date_	access:public
+fd_s	aosen_core.h	/^    int fd_s;$/;"	m	struct:_aosen_master_head_	access:public
+handle_data_from_local_server_1	aosen_core.h	/^    char* (*handle_data_from_local_server_1)(struct _aosen_server_ *aosen , const aosen_worker_node *worker_node, int *state);$/;"	m	struct:_aosen_server_	access:public
+handle_data_from_local_server_2	aosen_core.h	/^    char* (*handle_data_from_local_server_2)(struct _aosen_server_ *aosen , const aosen_worker_node *worker_node, int *state);$/;"	m	struct:_aosen_server_	access:public
+handle_data_from_server	aosen_core.h	/^	char* (*handle_data_from_server)(struct _aosen_server_ *aosen, const aosen_worker_node *worker_node, int *state);$/;"	m	struct:_aosen_server_	access:public
+handle_data_from_user	aosen_core.h	/^	char* (*handle_data_from_user)(struct _aosen_server_ *aosen, const aosen_worker_node *worker_node, int *state);$/;"	m	struct:_aosen_server_	access:public
+handle_signal	aosen_master.c	/^static void handle_signal(int signal)$/;"	f	file:	signature:(int signal)
+handle_signal	aosen_master.c	/^static void handle_signal(int signo);$/;"	p	file:	signature:(int signo)
+handle_signal	aosen_worker.c	/^static void handle_signal(int signal)$/;"	f	file:	signature:(int signal)
+init_conf	aosen_init.c	/^static void init_conf(aosen_core_data *core_data, aosen_server* aosen, const char *filename)$/;"	f	file:	signature:(aosen_core_data *core_data, aosen_server* aosen, const char *filename)
+init_conf	aosen_init.c	/^static void init_conf(aosen_core_data* , aosen_server*, const char *);$/;"	p	file:	signature:(aosen_core_data* , aosen_server*, const char *)
+init_process	aosen_init.c	/^static void init_process(aosen_server* aosen, aosen_core_data* core_data)$/;"	f	file:	signature:(aosen_server* aosen, aosen_core_data* core_data)
+init_process	aosen_init.c	/^static void init_process(aosen_server* aosen, aosen_core_data* core_data);$/;"	p	file:	signature:(aosen_server* aosen, aosen_core_data* core_data)
+init_socket	aosen_init.c	/^static int init_socket(int port, int listen_num)$/;"	f	file:	signature:(int port, int listen_num)
+init_socket	aosen_init.c	/^static int init_socket(int port, int listen_num);$/;"	p	file:	signature:(int port, int listen_num)
+init_worker_head_list	aosen_init.c	/^static void init_worker_head_list(aosen_core_data *core_data)$/;"	f	file:	signature:(aosen_core_data *core_data)
+init_worker_head_list	aosen_init.c	/^static void init_worker_head_list(aosen_core_data *core_data);$/;"	p	file:	signature:(aosen_core_data *core_data)
+len	aosen_core.h	/^	int len;$/;"	m	struct:_aosen_master_head_	access:public
+load_file	aosen_init.c	/^static char* load_file(const char *);$/;"	p	file:	signature:(const char *)
+load_file	aosen_init.c	/^static char* load_file(const char *filename)$/;"	f	file:	signature:(const char *filename)
+local_method	aosen_core.h	/^    char* local_method;$/;"	m	struct:_aosen_core_date_	access:public
+local_method	aosen_core.h	/^    char* local_method;$/;"	m	struct:_aosen_server_	access:public
+local_path	aosen_core.h	/^    char* local_path;$/;"	m	struct:_aosen_core_date_	access:public
+local_path	aosen_core.h	/^    char* local_path;$/;"	m	struct:_aosen_server_	access:public
+local_port	aosen_core.h	/^    int local_port;$/;"	m	struct:_aosen_core_date_	access:public
+local_port	aosen_core.h	/^    int local_port;$/;"	m	struct:_aosen_server_	access:public
+local_server	aosen_core.h	/^    char *local_server;$/;"	m	struct:_aosen_core_date_	access:public
+local_server	aosen_core.h	/^    char* local_server;$/;"	m	struct:_aosen_server_	access:public
+master_check_worker	aosen_master.c	/^static void master_check_worker()$/;"	f	file:
+master_check_worker	aosen_master.c	/^static void master_check_worker();$/;"	p	file:
+master_head	aosen_core.h	/^	aosen_master_head *master_head;$/;"	m	struct:_aosen_core_date_	access:public
+master_pid	aosen_core.h	/^	pid_t master_pid;$/;"	m	struct:_aosen_master_head_	access:public
+master_pid	aosen_core.h	/^    pid_t master_pid;$/;"	m	struct:_aosen_core_date_	access:public
+max_listen	aosen_core.h	/^    int max_listen;$/;"	m	struct:_aosen_core_date_	access:public
+next_master_node	aosen_core.h	/^	struct _aosen_master_node *next_master_node;$/;"	m	struct:_aosen_master_node_	typeref:struct:_aosen_master_node_::_aosen_master_node	access:public
+next_master_node	aosen_core.h	/^	struct _aosen_master_node_* next_master_node;$/;"	m	struct:_aosen_master_head_	typeref:struct:_aosen_master_head_::_aosen_master_node_	access:public
+next_worker_node	aosen_core.h	/^	struct _aosen_worker_node_ *next_worker_node;$/;"	m	struct:_aosen_worker_head_	typeref:struct:_aosen_worker_head_::_aosen_worker_node_	access:public
+next_worker_node	aosen_core.h	/^	struct _aosen_worker_node_ *next_worker_node;$/;"	m	struct:_aosen_worker_node_	typeref:struct:_aosen_worker_node_::_aosen_worker_node_	access:public
+parse_json	aosen_init.c	/^static cJSON* parse_json(char *);$/;"	p	file:	signature:(char *)
+parse_json	aosen_init.c	/^static cJSON* parse_json(char *data)$/;"	f	file:	signature:(char *data)
+pid	aosen_core.h	/^	pid_t pid;$/;"	m	struct:_aosen_worker_head_	access:public
+pid	aosen_core.h	/^    pid_t pid;$/;"	m	struct:_aosen_core_date_	access:public
+port	aosen_core.h	/^    int port;$/;"	m	struct:_aosen_core_date_	access:public
+prev_worker_node	aosen_core.h	/^    struct _aosen_worker_node_ *prev_worker_node;$/;"	m	struct:_aosen_worker_node_	typeref:struct:_aosen_worker_node_::_aosen_worker_node_	access:public
+read_from_local_server_buf_1	aosen_core.h	/^    char *read_from_local_server_buf_1;$/;"	m	struct:_aosen_worker_node_	access:public
+read_from_local_server_buf_2	aosen_core.h	/^    char *read_from_local_server_buf_2;$/;"	m	struct:_aosen_worker_node_	access:public
+read_from_local_server_time_1	aosen_core.h	/^    int read_from_local_server_time_1;$/;"	m	struct:_aosen_worker_node_	access:public
+read_from_local_time_2	aosen_core.h	/^    int read_from_local_time_2;$/;"	m	struct:_aosen_worker_node_	access:public
+read_from_server_buf	aosen_core.h	/^    char *read_from_server_buf;$/;"	m	struct:_aosen_worker_node_	access:public
+read_from_server_time	aosen_core.h	/^    int read_from_server_time;$/;"	m	struct:_aosen_worker_node_	access:public
+read_from_user_buf	aosen_core.h	/^	char *read_from_user_buf;$/;"	m	struct:_aosen_worker_node_	access:public
+read_from_user_time	aosen_core.h	/^    int read_from_user_time;$/;"	m	struct:_aosen_worker_node_	access:public
+request_header	aosen_core.h	/^}request_header;$/;"	t	typeref:struct:_request_header_
+request_header_from_user	aosen_core.h	/^	request_header *request_header_from_user;$/;"	m	struct:_aosen_worker_node_	access:public
+server	aosen_core.h	/^    int server;$/;"	m	struct:_aosen_core_date_	access:public
+server_time_out	aosen_core.h	/^    int server_time_out;$/;"	m	struct:_aosen_core_date_	access:public
+setnonblocking	aosen_worker.c	/^static int setnonblocking(int sockfd)$/;"	f	file:	signature:(int sockfd)
+setnonblocking	aosen_worker.c	/^static int setnonblocking(int sockfd);$/;"	p	file:	signature:(int sockfd)
+share_mem_key	aosen_core.h	/^	key_t share_mem_key;$/;"	m	struct:_aosen_core_date_	access:public
+share_mem_size	aosen_core.h	/^	size_t share_mem_size;$/;"	m	struct:_aosen_core_date_	access:public
+shmid	aosen_core.h	/^	int shmid;$/;"	m	struct:_aosen_core_date_	access:public
+state	aosen_core.h	/^    int state;$/;"	m	struct:_aosen_worker_node_	access:public
+user_time_out	aosen_core.h	/^    int user_time_out;$/;"	m	struct:_aosen_core_date_	access:public
+worker_head	aosen_core.h	/^	aosen_worker_head *worker_head;$/;"	m	struct:_aosen_core_date_	access:public
+write_to_local_server_buf_1	aosen_core.h	/^    char *write_to_local_server_buf_1;$/;"	m	struct:_aosen_worker_node_	access:public
+write_to_local_server_buf_2	aosen_core.h	/^    char *write_to_local_server_buf_2;$/;"	m	struct:_aosen_worker_node_	access:public
+write_to_local_server_time_1	aosen_core.h	/^    int write_to_local_server_time_1;$/;"	m	struct:_aosen_worker_node_	access:public
+write_to_local_time_2	aosen_core.h	/^    int write_to_local_time_2;$/;"	m	struct:_aosen_worker_node_	access:public
+write_to_server_buf	aosen_core.h	/^    char *write_to_server_buf;$/;"	m	struct:_aosen_worker_node_	access:public
+write_to_server_time	aosen_core.h	/^    int write_to_server_time;$/;"	m	struct:_aosen_worker_node_	access:public
+write_to_user_buf	aosen_core.h	/^	char *write_to_user_buf;$/;"	m	struct:_aosen_worker_node_	access:public
+write_to_user_time	aosen_core.h	/^    int write_to_user_time;$/;"	m	struct:_aosen_worker_node_	access:public

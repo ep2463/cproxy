@@ -1,0 +1,3 @@
+#!/bin/sh
+sh ./tools/install.sh
+sh ./tools/makelib.sh
